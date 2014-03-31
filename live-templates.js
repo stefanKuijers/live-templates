@@ -1,4 +1,9 @@
 /*
+  Live-templates.js - Another script closer to designing in the browser
+  Written by Stefan Kuijers
+*/
+
+/*
   Live.js - One script closer to Designing in the Browser
   Written for Handcraft.com by Martin Kool (@mrtnkl).
 
