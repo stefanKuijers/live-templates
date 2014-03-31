@@ -21,7 +21,6 @@
   To monitor CSS and be notified that it has loaded, include it as: live.js#css,notify
 */
 
-// Added variables
 // regex to match template files. Currently only jade&html. Just add whichever extention you'd
 var urlMatchRegex = /[a-zA-Z0-9\-\.\/]*[a-zA-Z0-9\-\.]+\.(html|jade)(\/\S*)?/g;
 // location of the router. In this case (example Ionic/Angular project) it was located in js/app.js 
