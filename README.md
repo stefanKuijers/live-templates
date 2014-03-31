@@ -9,7 +9,7 @@ How to use
 --------------
 This is almost the same as live.js
    - get script & save
-   - change the routerURL on line 27 to the url of your router
+   - change the routerURL variable on line 27 to the url of your router
    - include script on the page(s) where you require live reload 
 
 
@@ -19,10 +19,12 @@ Tested with Ionic and Angular. Should work with many other front-end frameworks 
 
 This is just a quick-fix. Suggestions and pull requests are welcome
 
+
 Credits
 --------------
 Of course the credits go to Martin Kool who made live.js
 Checkout: http://livejs.com/
+
 
 License
 --------------
