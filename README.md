@@ -1,23 +1,28 @@
 live-templates
 ==============
 
-**Introduction
+Introduction
+--------------
 This is a way to make live.js work with templates. It's basically live.js with a bit of added functionality. When editing templates the script detects or the template has been modified since the page was last loaded. If it was it reloads the page automagically. The only thing you have to do is add the base path to your router in this script and you are ready to go.
 
-**How to use
+How to use
+--------------
 This is almost the same as live.js
    - get script & save
    - change the routerURL on line 27 to the url of your router
    - include script on the page(s) where you require live reload 
 
-**Disclaimer
+Disclaimer
+--------------
 Tested with Ionic and Angular. Should work with many other front-end frameworks eventhough it now only recognizes templates with .html or .jade
 
-**Credits
+Credits
+--------------
 Of course the credits go to Martin Kool who made live.js
 Checkout: http://livejs.com/
 
-**License
+License
+--------------
 MIT License http://en.wikipedia.org/wiki/MIT_License  
 IN SHORT: It's free. You can use it commercially. Don't sue us.
   
