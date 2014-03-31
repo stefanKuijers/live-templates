@@ -12,9 +12,12 @@ This is almost the same as live.js
    - change the routerURL on line 27 to the url of your router
    - include script on the page(s) where you require live reload 
 
+
 Disclaimer
 --------------
 Tested with Ionic and Angular. Should work with many other front-end frameworks eventhough it now only recognizes templates with .html or .jade
+
+This is just a quick-fix. Suggestions and pull requests are welcome
 
 Credits
 --------------
