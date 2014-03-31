@@ -15,14 +15,14 @@ This is almost the same as live.js
 
 Disclaimer
 --------------
-Tested with Ionic and Angular. Should work with many other front-end frameworks eventhough it now only recognizes templates with .html or .jade
+Tested with Ionic and Angular. Should work with many other front-end frameworks eventhough it now only recognizes templates with .html or .jade.
 
-This is just a quick-fix. Suggestions and pull requests are welcome
+This is just a quick-fix. Suggestions and pull requests are welcome.
 
 
 Credits
 --------------
-Of course the credits go to Martin Kool who made live.js
+Of course the credits go to Martin Kool who made live.js.
 Checkout: http://livejs.com/
 
 
