@@ -15,7 +15,7 @@ This is almost the same as live.js
 
 Disclaimer
 --------------
-Tested with Ionic and Angular. Should work with many other front-end frameworks eventhough it now only recognizes templates with .html or .jade.
+Tested with Ionic/Angular in Chrome. Should work with many other front-end frameworks eventhough it now only recognizes templates with .html or .jade.
 
 This is just a quick-fix. Suggestions and pull requests are welcome.
 
