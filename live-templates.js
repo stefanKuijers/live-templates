@@ -114,17 +114,18 @@ var routerURL = "js/app.js";
           }
           getFileFromServer(src, function(text) {
             if (text !== null) {
-                if (urlMatches = text.match( urlMatchRegex ) ) {
+              if (urlMatches = text.match( urlMatchRegex ) ) {
                   length = urlMatches.length;
 
                   for (i = 0; i < length; i++) {
                     if (urlMatches[i] && isLocal(urlMatches[i])) 
                       uris.push(urlMatches[i]);
                   }
-                  // once the callback is complete: resume as live.js normally handles the stuff
-                  startTracking();
+                  
               }
             }
+            // once the callback is complete: resume as live.js normally handles the stuff
+            startTracking();
           });
         }
         // END added code to load from router
