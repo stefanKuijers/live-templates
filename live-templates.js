@@ -30,6 +30,8 @@
 var urlMatchRegex = /[a-zA-Z0-9\-\.\/]*[a-zA-Z0-9\-\.]+\.(html|jade)(\/\S*)?/g;
 // location of the router. In this case (example Ionic/Angular project) it was located in js/app.js 
 var routerURL = "js/app.js";
+var excludes = ['dont/make/live.js'];
+var includes = ['make/live.js'];
 
 (function () {
 
@@ -96,6 +98,9 @@ var routerURL = "js/app.js";
       for (var i = 0; i < scripts.length; i++) {
         var script = scripts[i], src = script.getAttribute("src");
 
+        // Skip the url if it's in the excludes Array
+        if (excludes.indexOf(src) !== -1) continue;
+
         // Start added code to load any templates defined in the router
         if (src === routerURL) {
           // get router js file with ajax request
@@ -138,6 +143,9 @@ var routerURL = "js/app.js";
           if (src.match("notify")) 
             alert("Live.js is loaded.");
         }
+
+        for (var j = 0; j < includes.length; j++)
+          uris.push(includes[j]);
       }
       if (!active.js) uris = [];
       if (active.html) uris.push(document.location.href);
